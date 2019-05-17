@@ -1,0 +1,33 @@
+{
+  "name": "lap",
+  "version": "1.0.0",
+  "description": "Simple API to track how long it takes between marks",
+  "main": "index.js",
+  "scripts": {
+    "format:check": "prettier --list-different \"./**/*.{js,ts,json}\"",
+    "format": "prettier --write \"./**/*.{js,ts,json}\"",
+    "lint": "eslint \"./**/*.js\"",
+    "test": "node test.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm-run-all format:check lint test"
+    }
+  },
+  "keywords": [
+    "time",
+    "performance",
+    "track"
+  ],
+  "author": "Brian Holt <btholt+lap@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "types": "./index.d.ts",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "husky": "^2.3.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.17.1"
+  }
+}
