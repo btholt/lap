@@ -1,6 +1,6 @@
 {
-  "name": "lap",
-  "version": "1.0.0",
+  "name": "time-lap",
+  "version": "1.0.1",
   "description": "Simple API to track how long it takes between marks",
   "main": "index.js",
   "scripts": {
