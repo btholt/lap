@@ -1,4 +1,4 @@
-<h1 align="center">lap</h1> <br>
+<h1 align="center">time-lap</h1> <br>
 <p align="center">
     <img alt="stopwatch logo" title="Placeholder" src="./stopwatch.png" width="150">
 </p>
@@ -6,6 +6,10 @@
 <p align="center">
   Simple API to track how long it takes between marks
 </p>
+
+## Install
+
+`npm install time-lap`
 
 ## API
 
